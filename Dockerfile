@@ -1,4 +1,5 @@
 FROM ubuntu:16.04
+MAINTAINER DWP <me@dwp.my.id>
 
 RUN mkdir /app
 RUN apt-get update -y && apt-get install python-pip python-dev -y
